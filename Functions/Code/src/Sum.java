@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Sum {
-    public static void main(String[] args) {
+    public static void main(String[] args) {}
 //        Scanner sc = new Scanner(System.in);
 //        System.out.print("Enter first number: ");
 //        int a = sc.nextInt();
@@ -9,7 +9,7 @@ public class Sum {
 //        int b = sc.nextInt();
 //            sum3(a , b);
 //    }
-//
+}
 //    static void sum3(int a, int b) {
 //        int sum = a + b;
 //        System.out.println("The sum of the integers is : " + sum);
@@ -40,6 +40,6 @@ public class Sum {
 //    }
 //    }
 
-}
+
 // Passing the arguments which need to enter during call the fxn
 
