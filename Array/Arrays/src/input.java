@@ -23,6 +23,7 @@ public class input {
 //        System.out.print(arr[i] + " ");
 //    }
 
+
         for (int num : arr) { // for every element in array , print the element
             System.out.print(num + " "); // here num represent element of the array
         }
