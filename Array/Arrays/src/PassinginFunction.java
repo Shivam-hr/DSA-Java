@@ -8,7 +8,6 @@ public class PassinginFunction {
         System.out.println(Arrays.toString(nums));
         Change(nums);
         System.out.println(Arrays.toString(nums));
-
     }
 
     static void Change(int[] arr) {
