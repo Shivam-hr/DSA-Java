@@ -1,8 +1,8 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public static void main(String[] args) {
-    int[] nums = {5,7,9,5,3,70,56,23};
-    int target = 7;
+    int[] nums = {5,7,9,5,3,70,56,23,0};
+    int target = -1;
     int index = linearSearch2(nums,target);
     System.out.println(index);
 
@@ -24,7 +24,7 @@ public static void main(String[] args) {
 static int linearSearch2 (int[] arr, int target) {
     int n = arr.length;
     if (n == 0) {
-        return -1;
+        return Integer.MAX_VALUE;
     }
 
     for (int i = 0; i < n; i++) {
@@ -33,7 +33,7 @@ static int linearSearch2 (int[] arr, int target) {
             return element;
         }
     }
-    return -1;
+    return Integer.MAX_VALUE;
 }
 
 
